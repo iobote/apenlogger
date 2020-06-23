@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\obote\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\obote\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+﻿@page
+@model ApenLogManager.Logs.Pages.System.IndexModel
+@{
+    ViewData["Title"] = "System Log";
+}
+
+<form>
+    <p>
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(m=>m.Items[0].Executed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m=>m.Items[0].ActionType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m=>m.Items[0].Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m=>m.Items[0].Reference)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m=>m.Items[0].LogLevel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(m=>m.Items[0].Message)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(m=>item.Executed)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.ActionType)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.Source)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.Reference)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.LogLevel)
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.Message)
+                </td>
+                <td>
+                    <a href="./Details?id=@item.Id">Show Detail</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

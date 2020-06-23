@@ -1,0 +1,9 @@
+D:\Source\Logger\ApenLogger\bin\Release\netstandard2.0\ApenLogger.deps.json
+D:\Source\Logger\ApenLogger\bin\Release\netstandard2.0\ApenLogger.dll
+D:\Source\Logger\ApenLogger\bin\Release\netstandard2.0\ApenLogger.pdb
+D:\Source\Logger\ApenLogger\obj\Release\netstandard2.0\ApenLogger.csprojAssemblyReference.cache
+D:\Source\Logger\ApenLogger\obj\Release\netstandard2.0\ApenLogger.csproj.CoreCompileInputs.cache
+D:\Source\Logger\ApenLogger\obj\Release\netstandard2.0\ApenLogger.AssemblyInfoInputs.cache
+D:\Source\Logger\ApenLogger\obj\Release\netstandard2.0\ApenLogger.AssemblyInfo.cs
+D:\Source\Logger\ApenLogger\obj\Release\netstandard2.0\ApenLogger.dll
+D:\Source\Logger\ApenLogger\obj\Release\netstandard2.0\ApenLogger.pdb

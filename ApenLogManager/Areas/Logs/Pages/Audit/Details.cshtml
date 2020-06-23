@@ -1,0 +1,19 @@
+﻿@page
+@model ApenLogManager.Logs.Pages.Audit.DetailsModel
+@{
+    ViewData["Title"] = "Audit Log";
+}
+
+<h3>Audit Log @Model.Item.Id | @Model.Item.Message</h3>
+
+<dl>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Id)</dt><dd>@Html.DisplayFor(m=>Model.Item.Id)</dd>
+    <dt>@Html.DisplayNameFor(m=>m.Item.ActionType)</dt><dd>@Html.DisplayFor(m=>Model.Item.ActionType)</dd>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Executed)</dt><dd>@Html.DisplayFor(m=>Model.Item.Executed)</dd>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Actor)</dt><dd>@Html.DisplayFor(m=>Model.Item.Actor)</dd>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Reference)</dt><dd>@Html.DisplayFor(m=>Model.Item.Reference)</dd>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Source)</dt><dd>@Html.DisplayFor(m=>Model.Item.Source)</dd>
+    <hr/>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Message)</dt><dd>@Html.DisplayFor(m=>Model.Item.Message)</dd>
+    <dt>@Html.DisplayNameFor(m=>m.Item.Detail)</dt><dd>@Html.DisplayFor(m=>Model.Item.Detail)</dd>
+</dl>

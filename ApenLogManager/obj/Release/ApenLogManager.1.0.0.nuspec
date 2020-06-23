@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ApenLogManager</id>
+    <version>1.0.0</version>
+    <authors>ApenLogManager</authors>
+    <owners>ApenLogManager</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="ApenLogger" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Source\Logger\ApenLogManager\bin\Release\netcoreapp3.1\ApenLogManager.Views.dll" target="lib\netcoreapp3.1\ApenLogManager.Views.dll" />
+    <file src="D:\Source\Logger\ApenLogManager\bin\Release\netcoreapp3.1\ApenLogManager.dll" target="lib\netcoreapp3.1\ApenLogManager.dll" />
+    <file src="D:\Source\Logger\ApenLogManager\obj\Release\netcoreapp3.1\staticwebassets\msbuild.ApenLogManager.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="D:\Source\Logger\ApenLogManager\obj\Release\netcoreapp3.1\staticwebassets\msbuild.build.ApenLogManager.props" target="build\ApenLogManager.props" />
+    <file src="D:\Source\Logger\ApenLogManager\obj\Release\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.ApenLogManager.props" target="buildMultiTargeting\ApenLogManager.props" />
+    <file src="D:\Source\Logger\ApenLogManager\obj\Release\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.ApenLogManager.props" target="buildTransitive\ApenLogManager.props" />
+    <file src="D:\Source\Logger\ApenLogManager\wwwroot\background.png" target="staticwebassets\background.png" />
+    <file src="D:\Source\Logger\ApenLogManager\wwwroot\exampleJsInterop.js" target="staticwebassets\exampleJsInterop.js" />
+    <file src="D:\Source\Logger\ApenLogManager\wwwroot\styles.css" target="staticwebassets\styles.css" />
+  </files>
+</package>
